@@ -1,6 +1,6 @@
 ---
 title: "Resurrection 2017"
-date: 2017-02-03T11:30:31Z
+date: 2017-06-03T11:30:31Z
 draft: false
 url: blank-1
 # slug: kiss-from-a-rose

@@ -1,6 +1,6 @@
 ---
 title: "Kiss From A Rose"
-date: 2014-02-02T17:56:52Z
+date: 2014-06-02T17:56:52Z
 draft: false
 url: look-do-dia
 # slug: kiss-from-a-rose

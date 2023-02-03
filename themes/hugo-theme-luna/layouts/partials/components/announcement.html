@@ -1,0 +1,9 @@
+{{- if .Site.Params.announcement.enabled -}}
+    {{- with resources.Get .Site.Params.announcement.file -}}
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/161511897?h=a76108d2ae&amp;badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=true&amp;background=true&amp;loop=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Kiss from a rose by Baal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>     
+        <div class="typo mb-6 py-2 px-4 bg-gray-50 rounded dark:bg-darkBgAccent">
+            <!--  before:text-theme before:opacity-60 before:mr-4 before:content-['\ebe0'] before:font-['Eva-Icons'] -->
+            {{- .Content | markdownify -}}
+        </div>
+    {{- end -}}
+{{- end -}}

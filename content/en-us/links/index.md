@@ -1,15 +1,10 @@
 ---
-title: "Links"
+title: "Socials"
 date: 2021-08-23T15:26:35+08:00
 layout: "links"
 ---
 
-#### WebSite
+#### Links
 
-{{< link url="https://github.com/" image="github.png" title="GitHub" desc="some desc text..." >}}
-{{< link url="https://douban.com/" image="douban.png" title="Douban" desc="some desc text..." >}}
-{{< link url="https://youtube.com/" image="youtube.png" title="YouTube" desc="some desc text..." >}}
-{{< link url="https://sspai.com/" image="sspai.png" title="Sspai" desc="some desc text..." >}}
-{{< link url="https://translate.google.com" image="translate.png" title="Translate" desc="some desc text..." >}}
-{{< link url="https://tieba.com/" image="tieba.png" title="Tieba" desc="some desc text..." >}}
-{{< link url="https://zhihu.com/" image="zhihu.png" title="Zhihu" desc="some desc text..." >}}
+{{< link url="https://www.instagram.com/baalfashion/" image="instagram-48.png" title="Instagram" desc="Baal on Instagram" >}}
+{{< link url="https://www.facebook.com/baalfashion" image="facebook-64.png" title="Facebook" desc="Baal on Facebook" >}}

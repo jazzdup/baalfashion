@@ -56,10 +56,10 @@ relativeURLs: false
 
 # 图像处理
 # see https://gohugo.io/content-management/image-processing/#imaging-configuration
-# imaging:
-#   resampleFilter: CatmullRom
-#   quality: 95
-#   anchor: smart
+imaging:
+  resampleFilter: CatmullRom
+  quality: 95
+  anchor: smart
 
 caches:
   getresource:

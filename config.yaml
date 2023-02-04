@@ -8,6 +8,7 @@ theme: hugo-theme-luna
 timeout: 60000
 timeZone: UTC
 
+
 # 可根据 Git 中的提交生成最近更新记录。
 # use git commit log to generate lastmod record
 enableGitInfo: false

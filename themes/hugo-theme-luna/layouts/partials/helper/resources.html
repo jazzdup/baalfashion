@@ -3,5 +3,5 @@
 
 {{- range $filename, $path := $svg_files -}}
     {{- $svg := resources.Get $path | resources.ExecuteAsTemplate $path $ -}}
-    {{- $.Store.Set $filename (print $public_cdn $svg.RelPermalink) -}}
+    {{- $.store.Set $filename (print $public_cdn $svg.RelPermalink) -}}
 {{- end -}}

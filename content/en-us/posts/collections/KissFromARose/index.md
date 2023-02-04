@@ -5,6 +5,7 @@ draft: false
 url: look-do-dia
 # slug: kiss-from-a-rose
 featured_image: _MG_0930.jpg
+summary: 
 layout: gallery
 tags:
   - transgender fashion collection

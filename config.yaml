@@ -61,6 +61,7 @@ relativeURLs: false
 #   quality: 95
 #   anchor: smart
 
+# aL. remove changes to cache reference, breaks vercel i think?
 # caches:
 #   getresource:
 #     dir: :resourceDir/_gen

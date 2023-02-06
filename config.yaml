@@ -24,6 +24,7 @@ paginate: 16
 # 启用谷歌统计
 # google analytics tracking code
 # googleAnalytics: UA-98634098-1
+googleAnalytics: G-2GD7769FML
 
 # 版权信息，默认为 author.name ↓
 # default: author.name ↓

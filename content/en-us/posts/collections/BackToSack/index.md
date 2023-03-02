@@ -20,13 +20,10 @@ categories:
 > Locations: Riposte , Soho House London
 
 {{< gallery-grid >}}
-![Back to Sack](Riposte.jpg)
 ![Back to Sack](399de99e-8824-4f06-89f8-becef150d1a6.jpg)
-![Back to Sack](IMG_0343.jpg)
 ![Back to Sack](IMG_0345.png)
 ![Back to Sack](IMG_0812.jpg)
 ![Back to Sack](IMG_0816.jpg)
-![Back to Sack](IMG_20190316_231630554.jpg)
-![Back to Sack](IMG_20190317_042406775.jpg)
+![Back to Sack](Riposte.jpg)
 {{< /gallery-grid >}}
 

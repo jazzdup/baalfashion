@@ -173,6 +173,8 @@ markup:
 
 # .Site.Params
 params:
+  description: "Baal is a young London based Fashion label in love with subtle asymmetry and specialised in MtF transgender. Fashion that fits and suits."
+
   # CDN 地址
   # CDN URL
   publicCDN: ""
@@ -263,11 +265,11 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2012/11/11
   
   #  网站创建年份
   # Site creation year
-  since: "2016"
+  since: "2012"
 
   # 显示文章过时提醒
   # show warning when outdated info detected
@@ -432,34 +434,34 @@ build:
   noJSConfigInAssets: true
 
 languages:
-  zh-cn:
-    contentDir: content/zh-hans
-    languageName: 中文
-    params:
-      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
-      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
-      twitter: 
-        enabled: true
-        rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
-        imageProcessing: true
-      github:
-        id: "Ice-Hazymoon"
-        minStars: 10
-      license:
-        enabled: true
-        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
-        icon: "Cc-by-nc-nd.svg" # in assets folder
-        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
-      announcement:
-        enabled: true
-        file: "README.zh.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "zh-CN"
+  # zh-cn:
+  #   contentDir: content/zh-hans
+  #   languageName: 中文
+  #   params:
+  #     languageIcon: "images/i18n/zh-cn.svg" # in assets folder
+  #     font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
+  #     twitter: 
+  #       enabled: true
+  #       rsshub: "https://rsshub.rssforever.com"
+  #       id: "Ice_Hazymoon"
+  #       imageProcessing: true
+  #     github:
+  #       id: "Ice-Hazymoon"
+  #       minStars: 10
+  #     license:
+  #       enabled: true
+  #       name: "署名 - 非商业性使用 - 禁止演绎 4.0"
+  #       icon: "Cc-by-nc-nd.svg" # in assets folder
+  #       url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
+  #     announcement:
+  #       enabled: true
+  #       file: "README.zh.md"
+  #     comments:
+  #       enabled: true
+  #       provider: "giscus"
+  #       giscus:
+  #         <<: *giscus
+  #         lang: "zh-CN"
   en-us:
     contentDir: content/en-us
     languageName: English
@@ -488,3 +490,5 @@ languages:
 
 staticDir:
   - static
+
+ignoreErrors: ["error-remote-getjson"]

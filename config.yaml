@@ -195,10 +195,10 @@ params:
     enabled: true
     provider: "giscus" # custom | giscus
     giscus: &giscus
-      repo: "Ice-Hazymoon/hugo-theme-luna"
-      repoID: "R_kgDOHQOwYw"
-      category: "Comments"
-      categoryID: "DIC_kwDOHQOwY84CP0Sy"
+      repo: "jazzdup/baalfashion"
+      repoID: "R_kgDOI5Wmtw"
+      category: "Announcements"
+      categoryID: "DIC_kwDOI5Wmt84CU3Lx"
       mapping: "title"
       reactionsEnabled: 1
       emitMetadata: 0

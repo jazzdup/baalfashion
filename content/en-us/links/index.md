@@ -8,3 +8,4 @@ layout: "links"
 
 {{< link url="https://www.instagram.com/baalfashion/" image="instagram-48.png" title="Instagram" desc="Baal on Instagram" >}}
 {{< link url="https://www.facebook.com/baalfashion" image="facebook-64.png" title="Facebook" desc="Baal on Facebook" >}}
+{{< link url="mailto:baalfashion@hotmail.com?subject=Via Baalfashion.com" image="mail.png" title="Email me" desc="Baalfashion@hotmail.com" >}}

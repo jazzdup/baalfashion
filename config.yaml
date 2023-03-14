@@ -37,7 +37,7 @@ permalinks:
   pages: /:slug.html # about.html
 
 author:
-  name: Ice-Hazymoon
+  name: KarinaTotti
 
 frontmatter:
   lastmod:
@@ -173,6 +173,8 @@ markup:
 
 # .Site.Params
 params:
+  description: "Baal is a young London based Fashion label in love with subtle asymmetry and specialised in MtF transgender. Fashion that fits and suits."
+
   # CDN 地址
   # CDN URL
   publicCDN: ""
@@ -193,10 +195,10 @@ params:
     enabled: true
     provider: "giscus" # custom | giscus
     giscus: &giscus
-      repo: "Ice-Hazymoon/hugo-theme-luna"
-      repoID: "R_kgDOHQOwYw"
-      category: "Comments"
-      categoryID: "DIC_kwDOHQOwY84CP0Sy"
+      repo: "jazzdup/baalfashion"
+      repoID: "R_kgDOI5Wmtw"
+      category: "Announcements"
+      categoryID: "DIC_kwDOI5Wmt84CU3Lx"
       mapping: "title"
       reactionsEnabled: 1
       emitMetadata: 0
@@ -263,11 +265,11 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2012/11/11
   
   #  网站创建年份
   # Site creation year
-  since: "2016"
+  since: "2012"
 
   # 显示文章过时提醒
   # show warning when outdated info detected
@@ -418,48 +420,49 @@ params:
   opengraph:
     twitter: # see https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
       cardType: summary_large_image # summary | summary_large_image
-      site: "@Ice_Hazymoon"
-    image: "featured.png" # in assets folder | false
+      site: "@djkarinatrouble"
+    image: "featured.jpg" # in assets folder | false
 
-  author: Ice-Hazymoon
+  author: KarinaTotti
   keywords:
     - Hugo
-    - Hugo Theme
-    - Luna
+    - Baal
+    - Fashion
+    - Transgender
   # description: "A simple, performance-first, SEO-friendly Hugo theme"
 
 build:
   noJSConfigInAssets: true
 
 languages:
-  zh-cn:
-    contentDir: content/zh-hans
-    languageName: 中文
-    params:
-      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
-      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
-      twitter: 
-        enabled: true
-        rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
-        imageProcessing: true
-      github:
-        id: "Ice-Hazymoon"
-        minStars: 10
-      license:
-        enabled: true
-        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
-        icon: "Cc-by-nc-nd.svg" # in assets folder
-        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
-      announcement:
-        enabled: true
-        file: "README.zh.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "zh-CN"
+  # zh-cn:
+  #   contentDir: content/zh-hans
+  #   languageName: 中文
+  #   params:
+  #     languageIcon: "images/i18n/zh-cn.svg" # in assets folder
+  #     font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
+  #     twitter: 
+  #       enabled: true
+  #       rsshub: "https://rsshub.rssforever.com"
+  #       id: "Ice_Hazymoon"
+  #       imageProcessing: true
+  #     github:
+  #       id: "Ice-Hazymoon"
+  #       minStars: 10
+  #     license:
+  #       enabled: true
+  #       name: "署名 - 非商业性使用 - 禁止演绎 4.0"
+  #       icon: "Cc-by-nc-nd.svg" # in assets folder
+  #       url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
+  #     announcement:
+  #       enabled: true
+  #       file: "README.zh.md"
+  #     comments:
+  #       enabled: true
+  #       provider: "giscus"
+  #       giscus:
+  #         <<: *giscus
+  #         lang: "zh-CN"
   en-us:
     contentDir: content/en-us
     languageName: English
@@ -488,3 +491,5 @@ languages:
 
 staticDir:
   - static
+
+ignoreErrors: ["error-remote-getjson"]

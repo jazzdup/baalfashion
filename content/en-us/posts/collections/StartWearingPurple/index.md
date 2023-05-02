@@ -4,7 +4,7 @@ date: 2016-02-03T09:36:49Z
 draft: false
 url: destaques
 # slug: kiss-from-a-rose
-featured_image: IMG_9319.jpg 
+featured_image: IMG_9462.jpg 
 summary: 
 layout: gallery
 tags:

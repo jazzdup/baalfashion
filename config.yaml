@@ -98,7 +98,7 @@ $manuMain:
     identifier: about
     params:
       icon: eva eva-heart
-    url: /about-baal-1/
+    url: /about-baal/
   - &mainMenuLinks
     name: Links
     weight: 30

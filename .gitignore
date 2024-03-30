@@ -11,3 +11,7 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# aL. 30/04/24 ignore node_modules, not sure if needed for deploy though 
+/node_modules/
+

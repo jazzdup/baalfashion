@@ -1,5 +1,4 @@
-Baal is a trans-positive Fashion label, that was founded in 2013 in Berlin, by Jen Hartmann.
-
+Baal is a trans-positive Fashion label, that was founded in 2013 in Berlin, by Jens Hartmann and is now based in Palermo.
 
 There are three collections : "Start wearing Purple", "Kiss from a rose" and "Resurrection".                                     
 

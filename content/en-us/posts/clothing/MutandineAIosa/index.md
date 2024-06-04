@@ -22,6 +22,7 @@ categories:
 > [**Inviami una email** per visionare](mailto:baalfashion@hotmail.com?subject=mutandine)
 
 {{< gallery-grid >}}
+![QRcodice](MutandineFattoAMano.jpg)
 ![mutandine](IMG_3413.jpeg)
 ![mutandine](IMG_3414.jpeg)
 ![mutandine](IMG_3415.jpeg)

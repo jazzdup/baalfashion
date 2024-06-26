@@ -4,6 +4,9 @@
         {{- partial "html/head/head" . -}}
         {{- block "head" . -}}{{ end }}
     </head>
+
+    <!-- aL. added 2024 -->
+    {{ partial "google_analytics.html" . }}
     
     <body class="dark:bg-darkBg dark:text-darkText">
         <div class="relative mx-auto shadow-lg md:max-w-4xl xl:max-w-4xl 2xl:max-w-4xl">
